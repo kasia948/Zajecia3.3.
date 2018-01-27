@@ -9,7 +9,6 @@ public class Device {
         this.producer = producer;
         this.type = type;
     }
-
     public Device(String c, String p, String t, double pr) {
         this(c, p, t);
         this.price = pr;
